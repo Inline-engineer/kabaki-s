@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kabaki's piggery Homestead</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <header>
+    <header style="background-image: url('https://images.unsplash.com/photo-1609316486593-6f2341be61c9');">
+        <div class="overlay">
+    <h1>Kabaki's piggery Homestead 🐖</h1>
+    <p><i>Where passion meets pig farming and passionate in Raising Healthy Pigs for a Healthier Future.</i></p>
+    <img src="img/PigFarming2.jpg" alt="">
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#breeds">Pig Breeds</a>
+      <a href="#history">History</a>
+      <a href="#encouragement">Encouragement</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Our Farm!</h2>
+    <p>We raise healthy, well-bred pigs with love and care. Explore our breeds below.</p>
+  </section>
+  <section id="about">
+    <h2>About Our Farm</h2>
+    <p>
+      Kabaki piggery Homestead is located in the lush countryside of <strong>Kiambu County, Kenya</strong>. Since our founding in 2020,
+      we've been dedicated to sustainable and ethical pig farming. Our goal is to provide quality pig breeds and educate others to join the movement.
+    </p>
+  </section>
+
+  <section id="breeds">
+    <h2>Our Pig Breeds</h2>
+    <div class="filter">
+      <label for="breedFilter">Filter by breed:</label>
+      <select id="breedFilter">
+        <option value="all">All</option>
+        <option value="largewhite">Large White</option>
+        <option value="landrace">Landrace</option>
+        <option value="duroc">Duroc</option>
+      </select>
+      <label for="ageFilter">Age:</label>
+    <select id="ageFilter">
+      <option value="all">All</option>
+      <option value="adult">Adult</option>
+      <option value="piglet">Piglet</option>
+    </select>
+    </div>
+
+    <div class="breed-gallery" id="breedGallery">
+          <div class="breed-card" data-breed="largewhite">
+            <img src="img/Untitled.jpg" alt="large White">
+            <h3>Large White</h3>
+            <p>Known for rapid growth and high-quality meat production.</p>
+          </div>
+          <div class="breed-card" data-breed="landrace">
+            <img src="img/Untitled.jpg" alt="Landrace Pig" />
+            <h3>Landrace</h3>
+            <p>Excellent mothering ability and good litter size.</p>
+          </div>
+          <div class="breed-card" data-breed="duroc">
+            <img src="img/pig2.jpeg" alt="Duroc Pig" />
+            <h3>Duroc</h3>
+            <p>Muscular and ideal for crossbreeding.</p>
+          </div>
+      <!-- Cards will be generated here by JavaScript -->
+    </div>
+  </section>
+
+  <section>
+    <h2>New Arrivals - Piglets</h2>
+    <div class="breed-gallery">
+      <div class="breed-card">
+        <img src="img/pig1.jpeg" alt="Piglets with Mother" />
+        <h3>January Batch</h3>
+        <p>Playful and healthy piglets now 4 months old.</p>
+      </div>
+      <div class="breed-card">
+        <img src="img/medium size.jpg " alt="Young Piglets" />
+        <h3>March Batch</h3>
+        <p>New arrivals full of energy and promise!</p>
+      </div>
+    </div>
+  </section>
+  
+  <header>
+    <h1>Feeding Your Pigs</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Feeding Your Pigs</a>
+  </nav>
+  <main>
+    <section class="section">
+      <p>Pigs require consistent feeding based on their age, sex, growth stage, and other factors. Sows and boars may be fed once or twice a day, while growing pigs benefit from 24-hour access to feed. Note that pigs <span class="warning">cannot live on pasture alone</span> and must not be fed meat or kitchen scraps due to health and legal concerns.</p>
+    </section>
+
+    <section class="section">
+      <h2>Types of Feeds</h2>
+      <button class="collapsible">Complete Feeds</button>
+      <div class="content">
+      
+        <p>Bought from feed mills, designed to meet full nutritional needs. Best growth, higher upfront cost, simplest to manage.
+          It is important to note that pigs cannot be raised on pasture alone and will require additional feed for proper growth and development. There are several things you need to consider when feeding your pigs. It is also important to know that it is illegal to feed any meat or meat products to your pigs. This is one reason not to feed table scraps.
+Complete Feeds
+
+Complete feeds are typically purchased from a feed mill and designed to meet all the nutritional requirements of your pigs. Different feeds will be required for different stages of growth, and your feed company can assist you with this. This might seem like the most expensive approach upfront, but it is also the simplest, and your pigs will have the best growth.
+
+        </p>
+      </div>
+
+      <button class="collapsible">Grain-Based Homemade Feeds</button>
+      <div class="content">
+        <p>Can include grains like wheat, barley, peas, and lentils. Requires vitamin/mineral supplements. Cheaper, but slower growth. Some people will prefer to make (grind) their own feed to save on cost. These diets can consist of a single grain (e.g. wheat or barley) or multiple grains (e.g. wheat/barley/peas/ lentils) with or without by-products (distillers, screenings). These diets will require an additional vitamin/mineral supplement to ensure nutritional requirements are met. Diets tend to be cheaper than complete feeds; however, pigs will also tend to grow more slowly. Vitamin/mineral supplements can be found at your local feed mill.
+Produce-Based Homemade Feeds
+
+In some cases, produce (fruits and vegetables) may provide a low-cost opportunity in feeding your pigs. These diets will require a very specific vitamin/mineral supplement to ensure nutritional needs of the pig are met. While it is acceptable to use produce in a feeding program, you must ensure it has never entered a kitchen or has been in contact with meat or products of animal origin. Typically, supermarket or market garden leftovers would provide a viable option for sourcing these types of products. DO NOT feed food/table scraps as they can be contaminated with meat products. Feeding any product that contains meat or meat products is illegal in Canada.
+Nutrition
+</p>
+      </div>
+
+      <button class="collapsible">Produce-Based Homemade Feeds</button>
+      <div class="content">
+        <p>Use clean, non-contaminated fruits and vegetables. Must never have touched meat or kitchen environments.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Nutrition Components</h2>
+      <ul>
+        <li><strong>Energy:</strong> From wheat, barley, corn (for growth and maintenance)</li>
+        <li><strong>Protein:</strong> From soybean meal, peas, lentils. Avoid overfeeding due to cost.</li>
+        <li><strong>Vitamins & Minerals:</strong> Use complete feed or supplements to meet needs.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Alternative Ingredients</h2>
+      <p>Approved ingredients include bakery waste, distillers grains, and cereal residue. <span class="warning">Do not use meat products.</span></p>
+    </section>
+
+    <section class="section">
+      <h2>Feed Quantity & Method</h2>
+      <p>Adjust feed based on pig needs and environmental factors. Overfeeding breeding pigs can harm performance. Ensure efficient feeding with proper feeders and reduce waste.</p>
+    </section>
+
+    <section class="section">
+      <h2>Feed Safety Tips</h2>
+      <ul>
+        <li>Avoid moldy feed</li>
+        <li>Clean spills quickly</li>
+        <li>Use secure, dry storage</li>
+        <li>Avoid contaminated hay/straw</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Toxic Plants & Risks</h2>
+      <ul>
+        <li><strong>Mycotoxins:</strong> Growth issues, sickness, reproductive issues</li>
+        <li><strong>Redroot Pigweed:</strong> Weakness, death</li>
+        <li><strong>Cocklebur:</strong> Vomiting, weakness, death</li>
+        <li><strong>Black Nightshade:</strong> Anorexia, death</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Feeders</h2>
+      <ul>
+        <li>One 15-inch space can serve up to 18 pigs</li>
+        <li>Use weatherproof, pest-proof feeders</li>
+        <li>Ensure all pigs can access feed</li>
+        <li>Use hoppers for large numbers of pigs</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <img src="img/piglets.jpg" alt="">
+      <img src="img/PigFarming2.jpg" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </section>
+  </main>
+  
+
+  <section class="message-section">
+    <h2>Leave Us a Message</h2>
+    <textarea placeholder="Share your thoughts, questions, or encouragement..."></textarea>
+    <button onclick="submitMessage()">Send Message</button>
+  </section>
+  <section id="history">
+    <h2>Our History</h2>
+    <p>
+      We began with just three pigs and a dream. Over the years, we’ve grown into a trusted source for healthy piglets and adult pigs across the region.
+      We've helped dozens of new farmers set up their own pig farms with support and mentorship.
+    </p>
+  </section>
+  <section id="encouragement">
+    <h2>Thinking About Investing in Pig Farming?</h2>
+    <p>
+      You don’t need to have it all figured out. Start small, learn as you grow, and let your passion lead the way. 
+      With dedication, pig farming can offer stable income and food security. 
+      <strong>Your journey can start today!</strong>
+    </p>
+  </section>
+  <section>
+    <h2>Our Location</h2>
+    <p>Located in Kiambu County, Kenya, our farm enjoys a serene environment perfect for pig rearing. We welcome visitors every weekend for tours and training.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: alexmararo096@gmail.com</p>
+    <p>Phone: +254 743045960</p>
+  </section>
+
+  <footer>
+    <p>Location: Kiambu County, Kenya</p>
+    <p>Contact: alexmararo096@gmail.com | +254 743045960/0726396058</p>
+    <p>&copy; 2025 Kabaki piggery Homestead</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
